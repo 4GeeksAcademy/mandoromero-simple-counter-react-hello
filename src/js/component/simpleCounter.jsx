@@ -5,7 +5,7 @@ const SimpleCounter = (props) => {
 
     return(
         <div>
-            <div>
+            <div classNAME="thousands">
                 {props.thousandsDigit}
             </div>
             <div>
