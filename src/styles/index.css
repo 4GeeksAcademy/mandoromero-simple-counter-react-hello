@@ -1,16 +1,23 @@
-
+body {
+    background-color: #000000;
+}
 .Home {
     display: flex;
     justify-content: center;
+    font-family: 'Orbitron', sans-serif;
     font-size: 80px;
     gap: 25px;
     text-align: center;
     margin: auto;
     margin-top: 200px;
-    border: 20px solid brown;
+    border: 20px solid #8134DF;
     width: 350px;
     border-radius: 15%;
+    color: white;
+    background-color: #232023;
 }
+
+
 
     
     
