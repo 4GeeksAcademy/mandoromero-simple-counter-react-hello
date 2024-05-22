@@ -2,12 +2,13 @@ import React from "react";
 import calculateSeconds from "./time";
 import PropTypes from "prop-types";
 import SimpleCounter from "./simpleCounter";
-
+import ClockLogo from "./clockLogo";
 
 const Home = ({counter}) => {
 	return (
 	  <div className="Home">
 		<h1>{PropTypes.counter}</h1>
+		<ClockLogo />
 		<SimpleCounter
 			hundredthousandsDigit = {calculateSeconds(counter, 100000)} 
 		/>
